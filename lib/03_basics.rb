@@ -18,17 +18,15 @@ def reverse_upcase_noLTA(string)
 end
 
 
-def finder(find)
+def 42_finder(input)
   # array_42 takes an array as parameter and returns:
   # - true if there's a 42 in the array items
   # - false otherwise
   # Hint: Should be 2 lines (and can be one :)   # Hint: google ruby array each
-if find.any? {42} == 42 
-return true
-else 
-  return false
+return array_42 = input
+puts array_42.include?(42)
 end
-end
+
 
 #def crazy_stuff_on_arrays
   # The magic_array function takes an array of number or an array of
