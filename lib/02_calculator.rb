@@ -18,37 +18,20 @@ def sum (number) #computes the sum of an empty array" (sum([]))=(0)
 end
 
 
-def multiply (two)
-# multiplies two numbers (multiply(3, 4))=(12)
-# multiplies two other numbers
-# multiplies two other numbers, one of them being 0"
-# one last test, with 0 in it
+def multiply (num6,num7)
+  mult = num6 * num7
+  return mult
 end
 
 
-def power (a,b) #raises one number to the power of another number"
-power = 1
-for i in 1..b
-  power=power*a
+def power (num8,num9) #raises one number to the power of another number"
+  pow = num8**num9
+  return pow
 end
-return power
 
-end
-#puts "Enter Base:-"
-#base=gets.chomp.to_i
-#puts "Enter exponent:-"
-#expo=gets.chomp.to_i
-#puts "The power is #{pow(base,expo)}"
-  
+#http://en.wikipedia.org/wiki/Factorial
 
-
-# http://en.wikipedia.org/wiki/Factorial
-
-def factorial (n)
-Math.gamma (n+1)
-#computes the factorial of 0
-#computes the factorial of 1
-#computes the factorial of 2
-#computes the factorial of 5
-#computes the factorial of 10
+def factorial(n)
+fac = Math.gamma(n+1)
+return fac
 end
